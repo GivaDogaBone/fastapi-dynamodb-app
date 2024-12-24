@@ -2,6 +2,9 @@ branch-defaults:
   default:
     environment: null
     group_suffix: null
+  master:
+    environment: fastapi-dynamodb-env
+    group_suffix: null
 environment-defaults:
   fastapi-dynamodb:
     branch: null
