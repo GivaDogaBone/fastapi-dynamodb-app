@@ -1,0 +1,9 @@
+  version: "3.8"
+  services:
+    app:
+      build: .
+      ports:
+        - "8000:8000"
+      environment:
+        AWS_REGION: "us-east-1"
+        DYNAMODB_TABLE_NAME: "fastapi-dynamodb-table"
